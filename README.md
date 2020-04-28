@@ -4,11 +4,11 @@ The home page offers information regarding coronavirus and the second page is a 
 
 # Home Page
 
-![home page](/images/covid19.png)
+![home page](/src/images/covid19.png)
 
 # Graph
 
-![graph](/images/graph.png)
+![graph](/src/images/graph.png)
 
 ### Prerequisites
 
