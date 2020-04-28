@@ -8,7 +8,7 @@ The home page offers information regarding coronavirus and the second page is a 
 
 # Graph
 
-![graph](/images/graph.png)
+![graph](/src/images/graph.png)
 
 ### Prerequisites
 
