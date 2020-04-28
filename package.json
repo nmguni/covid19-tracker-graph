@@ -1,7 +1,7 @@
 {
-  "homepage": "http://nmguni.github.io/covid19-tracker-graph",
   "name": "covid19-tracker",
   "version": "0.1.0",
+  "homepage": "http://nmguni.github.io/covid19-tracker-graph",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.9.9",
