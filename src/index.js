@@ -2,15 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Route, BrowserRouter as Router } from "react-router-dom";
 import App from "./app";
-import Home from "./components/homPage/homePage";
+import Home from "./components/home/home";
 
-const routing = (
+ReactDOM.render(
   <Router>
     <div id="routing-container">
-      <Route path="/home" component={Home}></Route>
+      <Route exact path="/" component={Home}></Route>
       <Route path="/app" component={App}></Route>
     </div>
-  </Router>
+  </Router>,
+  document.getElementById("root")
 );
-
-ReactDOM.render(routing, document.getElementById("root"));

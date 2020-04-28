@@ -43,7 +43,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
   return (
     <div>
       <Button className={classes.button} variant="contained">
-        <Link to="/homePage">Home</Link>
+        <Link to="/home">Home</Link>
       </Button>
       <Grid container spacing={3} justify="center">
         <Grid

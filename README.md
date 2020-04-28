@@ -1,4 +1,4 @@
-# covid19 Tracker App
+# Covid19 Tracker App
 
 The home page offers information regarding coronavirus and the second page is a graph displaying recovered, infected and death statistics.
 
