@@ -14,7 +14,7 @@ export default function Home() {
         <div className={styles.textContent}>
           <h6>COVID-19 - SARS-CoV-2</h6>
           <h1>
-            COVID-19 information <br /> & tracker
+            COVID-19 Information <br /> & Tracker
           </h1>
           <p className={styles.headerText}>
             Coronaviruses are a large family of viruses which may cause illness
