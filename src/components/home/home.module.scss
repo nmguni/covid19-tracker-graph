@@ -391,7 +391,7 @@ a {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    margin-top: 20%;
+    margin-top: 10%;
     .textContent {
       display: flex;
       flex-direction: column;
@@ -423,15 +423,15 @@ a {
     .headerText {
       font-size: 1em;
       line-height: 1.5em;
-      margin: 0 15% 0 0;
+      margin: 0 5% 0 0;
     }
 
     .btn {
-      padding: 0.5em;
+      padding: 0.2em;
       background-color: $primaryTextColor;
-      font-size: 10px;
+      font-size: 1rem;
       margin-top: 1.5em;
-      width: 30%;
+      // width: 50%;
       a {
         color: #f4f4f4;
       }
