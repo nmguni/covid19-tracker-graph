@@ -6,6 +6,12 @@ import Card from "@material-ui/core/Card";
 const useStyles = makeStyles((theme) => ({
   root: {
     margin: "2% 15% 5% 15%",
+    [theme.breakpoints.down(900)]: {
+      margin: "2% 10% 5% 10%",
+    },
+    [theme.breakpoints.down(550)]: {
+      margin: "2% 5% 5% 5%",
+    },
   },
 
   heading: {

@@ -35,7 +35,7 @@ export default function Home() {
 
       <div className={styles.topRow}>
         <div className={styles.wrapper}>
-          <a href="/home/#masks">
+          <a href="/#masks">
             <div className={styles.parent}>
               <div className={cx(styles.bgOne, styles.child)}>
                 <span className={styles.link}>Masks?</span>
@@ -45,7 +45,7 @@ export default function Home() {
         </div>
 
         <div className={styles.wrapper}>
-          <a href="/home/#myths">
+          <a href="/#myths">
             <div className={styles.parent}>
               <div className={cx(styles.bgTwo, styles.child)}>
                 <span className={styles.link}>myths?</span>
@@ -57,7 +57,7 @@ export default function Home() {
 
       <div className={styles.midRow}>
         <div className={styles.wrapper}>
-          <a href="/home/#symptoms">
+          <a href="/#symptoms">
             <div className={styles.parent}>
               <div className={cx(styles.bgThree, styles.child)}>
                 <span className={styles.link}>symptoms?</span>
@@ -66,7 +66,7 @@ export default function Home() {
           </a>
         </div>
         <div className={styles.wrapper}>
-          <a href="/home/#medical">
+          <a href="/#medical">
             <div className={styles.parent}>
               <div className={cx(styles.bgFour, styles.child)}>
                 <span className={styles.link}>
@@ -81,7 +81,7 @@ export default function Home() {
 
       <div className={styles.midBotRow}>
         <div className={styles.wrapper}>
-          <a href="/home/#childhood">
+          <a href="/#childhood">
             <div className={styles.parent}>
               <div className={cx(styles.bgFive, styles.child)}>
                 <span className={styles.link}> Childhood Immunizations </span>
@@ -90,7 +90,7 @@ export default function Home() {
           </a>
         </div>
         <div className={styles.wrapper}>
-          <a href="/home/#spreads">
+          <a href="/#spreads">
             <div className={styles.parent}>
               <div className={cx(styles.bgSix, styles.child)}>
                 <span className={styles.link}>how it spreads</span>
@@ -102,7 +102,7 @@ export default function Home() {
 
       <div className={styles.botRow}>
         <div className={styles.wrapper}>
-          <a href="/home/#protect">
+          <a href="/#protect">
             <div className={styles.parent}>
               <div className={cx(styles.bgSeven, styles.child)}>
                 <span className={styles.link}> protect?</span>
@@ -112,7 +112,7 @@ export default function Home() {
         </div>
 
         <div className={styles.wrapper}>
-          <a href="/home/#worry">
+          <a href="/#worry">
             <div className={styles.parent}>
               <div className={cx(styles.bgEight, styles.child)}>
                 <span className={styles.link}> worry?</span>
@@ -122,7 +122,7 @@ export default function Home() {
         </div>
 
         <div className={styles.wrapper}>
-          <a href="/home/#travel">
+          <a href="/#travel">
             <div className={styles.parent}>
               <div className={cx(styles.bgNine, styles.child)}>
                 <span className={styles.link}>travel?</span>
