@@ -5,6 +5,7 @@ import headerImg from "../../images/undraw_doctors_hwty.svg";
 import cx from "classnames";
 import ControlledExpansionPanels from "./expCards";
 import { Link } from "react-router-dom";
+import LazyLoad from "react-lazyload";
 
 export default function Home() {
   return (
@@ -27,8 +28,11 @@ export default function Home() {
             <Link to="/app">TIME-LINE</Link>
           </Button>
         </div>
+
         <div className={styles.imgContent}>
-          <img src={headerImg} alt="" />
+          <LazyLoad height={200} offset={100}>
+            <img src={headerImg} alt="" />
+          </LazyLoad>
         </div>
       </header>
       {/* ------------ */}
@@ -37,9 +41,11 @@ export default function Home() {
         <div className={styles.wrapper}>
           <a href="/#masks">
             <div className={styles.parent}>
-              <div className={cx(styles.bgOne, styles.child)}>
-                <span className={styles.link}>Masks?</span>
-              </div>
+              <LazyLoad height={200} offset={100}>
+                <div className={cx(styles.bgOne, styles.child)}>
+                  <span className={styles.link}>Masks?</span>
+                </div>
+              </LazyLoad>
             </div>
           </a>
         </div>
@@ -47,9 +53,11 @@ export default function Home() {
         <div className={styles.wrapper}>
           <a href="/#myths">
             <div className={styles.parent}>
-              <div className={cx(styles.bgTwo, styles.child)}>
-                <span className={styles.link}>myths?</span>
-              </div>
+              <LazyLoad height={200} offset={100}>
+                <div className={cx(styles.bgTwo, styles.child)}>
+                  <span className={styles.link}>myths?</span>
+                </div>
+              </LazyLoad>
             </div>
           </a>
         </div>
@@ -59,21 +67,25 @@ export default function Home() {
         <div className={styles.wrapper}>
           <a href="/#symptoms">
             <div className={styles.parent}>
-              <div className={cx(styles.bgThree, styles.child)}>
-                <span className={styles.link}>symptoms?</span>
-              </div>
+              <LazyLoad height={200} offset={100}>
+                <div className={cx(styles.bgThree, styles.child)}>
+                  <span className={styles.link}>symptoms?</span>
+                </div>
+              </LazyLoad>
             </div>
           </a>
         </div>
         <div className={styles.wrapper}>
           <a href="/#medical">
             <div className={styles.parent}>
-              <div className={cx(styles.bgFour, styles.child)}>
-                <span className={styles.link}>
-                  {" "}
-                  older adults & medical conditions
-                </span>
-              </div>
+              <LazyLoad height={200} offset={100}>
+                <div className={cx(styles.bgFour, styles.child)}>
+                  <span className={styles.link}>
+                    {" "}
+                    older adults & medical conditions
+                  </span>
+                </div>
+              </LazyLoad>
             </div>
           </a>
         </div>
@@ -83,18 +95,22 @@ export default function Home() {
         <div className={styles.wrapper}>
           <a href="/#childhood">
             <div className={styles.parent}>
-              <div className={cx(styles.bgFive, styles.child)}>
-                <span className={styles.link}> Childhood Immunizations </span>
-              </div>
+              <LazyLoad height={200} offset={100}>
+                <div className={cx(styles.bgFive, styles.child)}>
+                  <span className={styles.link}> Childhood Immunizations </span>
+                </div>
+              </LazyLoad>
             </div>
           </a>
         </div>
         <div className={styles.wrapper}>
           <a href="/#spreads">
             <div className={styles.parent}>
-              <div className={cx(styles.bgSix, styles.child)}>
-                <span className={styles.link}>how it spreads</span>
-              </div>
+              <LazyLoad height={200} offset={100}>
+                <div className={cx(styles.bgSix, styles.child)}>
+                  <span className={styles.link}>how it spreads</span>
+                </div>
+              </LazyLoad>
             </div>
           </a>
         </div>
@@ -104,9 +120,11 @@ export default function Home() {
         <div className={styles.wrapper}>
           <a href="/#protect">
             <div className={styles.parent}>
-              <div className={cx(styles.bgSeven, styles.child)}>
-                <span className={styles.link}> protect?</span>
-              </div>
+              <LazyLoad height={200} offset={100}>
+                <div className={cx(styles.bgSeven, styles.child)}>
+                  <span className={styles.link}> protect?</span>
+                </div>
+              </LazyLoad>
             </div>
           </a>
         </div>
@@ -114,9 +132,11 @@ export default function Home() {
         <div className={styles.wrapper}>
           <a href="/#worry">
             <div className={styles.parent}>
-              <div className={cx(styles.bgEight, styles.child)}>
-                <span className={styles.link}> worry?</span>
-              </div>
+              <LazyLoad height={200} offset={100}>
+                <div className={cx(styles.bgEight, styles.child)}>
+                  <span className={styles.link}> worry?</span>
+                </div>
+              </LazyLoad>
             </div>
           </a>
         </div>
@@ -124,9 +144,11 @@ export default function Home() {
         <div className={styles.wrapper}>
           <a href="/#travel">
             <div className={styles.parent}>
-              <div className={cx(styles.bgNine, styles.child)}>
-                <span className={styles.link}>travel?</span>
-              </div>
+              <LazyLoad height={200} offset={100}>
+                <div className={cx(styles.bgNine, styles.child)}>
+                  <span className={styles.link}>travel?</span>
+                </div>
+              </LazyLoad>
             </div>
           </a>
         </div>

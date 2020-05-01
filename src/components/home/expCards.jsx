@@ -43,7 +43,6 @@ export default function ControlledExpansionPanels() {
       <Card elevation={0}>
         <div className={styles.infoSection}>
           <div id="masks" className={styles.masks}>
-            {/* <img class="bg-img" src="./images/undraw_doctors_hwty.svg" alt="" /> */}
             <h2 className={styles.title}>When to use a mask</h2>
             <div className={styles.content}>
               <ul>
